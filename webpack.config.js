@@ -8,7 +8,7 @@ module.exports = {
         main: path.resolve(__dirname, './src/index.js'),
     },
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, 'dist/'),
         filename: 'main.bundle.js',
     },
     module: {
@@ -41,7 +41,7 @@ module.exports = {
         contentBase: path.join(__dirname, './dist'),
         open: true,
         compress: true,
-        hot: true,
+/*         liveReload: true, */
         port: 8080,
     },
     plugins: [
