@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": "true",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -32,6 +33,7 @@
   },
   "dependencies": {
     "http-server": "^14.1.0",
+    "lodash": "^4.17.21",
     "sass": "^1.66.1"
   }
 }
