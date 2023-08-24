@@ -30,7 +30,7 @@ module.exports = {
             type: 'asset/inline',
         },
         {
-            test: /\.(scss|css)$/,
+            test: /\.(scss|css|sass)$/,
             use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
         },
         ],
